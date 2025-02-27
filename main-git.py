@@ -11,7 +11,7 @@ from gino import Gino
 
 
 # Konfigurace připojení k databázi a Redis
-DATABASE_URL = "postgres://avnadmin:AVNS_4B6SO72L66REUb76_XB@pg-1bb23894-h4tori-5221.g.aivencloud.com:11506/x23?sslmode=require"  # upravte dle Vaší konfigurace
+DATABASE_URL = "postgres://avnadmin:XXXXXXXX@pg-1bb23894-h4tori-5221.g.aivencloud.com:11506/x23?sslmode=require"  # upravte dle Vaší konfigurace
 REDIS_URL = "redis://127.0.0.1:6379"
 
 app = FastAPI()
